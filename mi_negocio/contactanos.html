@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contactanos | Mi negocio</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header>
+<h1>Mi negocio</h1>
+</header>
+    <div class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html">Sobre nosotros</a>
+    <a href="habitaciones.html">Habitaciones</a> |
+    <a href="informacion.html">Información</a> |
+    <a href="contactanos.html">contactanos</a>
+    
+</div>
+<main>
+<section id="contactanos">
+        <div class="center">
+            <h2>Nuestros Datos</h2>
+        </div>
+        <div class="center">
+            <h4>Contactanos al número</h4>
+        </div>
+        <div class="center">
+            <p>01 800 Michelin</p>
+        </div>
+        <div class="center">
+            <h4>Correo Electronico</h4>
+        </div>
+        <div class="center">
+            <p>HotelTrivago@gmail.com</p>
+        </div>
+        <div class="center">
+         <h3>Si necesitas mas informacion, llena el formulario</h3>
+        </div>
+    <div class="center">
+    <form>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+
+            <label for="motivo">Motivo de contacto:</label>
+            <select id="motivo" name="motivo" required>
+                <option value="">Selecciona una opción</option>
+                <option value="precios">Costos de Habitación</option>
+                <option value="habitaciones">Habitaciones disponibles</option>
+                <option value="servicios">Información de servicios</option>
+            </select>
+
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"
+            rows="5" required></textarea>
+
+
+            <button type="submit">Enviar solicitud</button>
+            <button type="reset">Limpiar formulario</button>
+        </fieldset>
+    </form>
+    </div>
+    </section>
+
+</main>
+<footer>
+<p>Mi negocio - 2026</p>
+</footer>
+</body>
+</html>
+
+
+
